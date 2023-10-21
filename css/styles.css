@@ -53,11 +53,23 @@ button:hover {
         height: 584px;
         background-color: white;
         border-radius: 4px;
+        padding: 24px;
 }
 
 .is-hidden {
     pointer-events: none;
     opacity: 0;
+}
+
+.modal-close-btn {
+    border-radius: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+    height: 24px;
+    width: 24px;
+    color: #2E2F42;
+    margin-left: auto;
+    display: block;
 }
 
 .main-header-menu-link {
