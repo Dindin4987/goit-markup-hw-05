@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header class="container">
+    <header width="1440" class="container">
             <nav>
                 <ul class="main-nav">
                     <li class="main-header-menu">
@@ -43,11 +43,20 @@
             </div>
     </header>
 
+<!-- Hero Section -->
+    <section class="hero">
         <h1>
             Effective Solutions </br>
             for Your Business <br/>
-            <button type="button">Order Service</button>
         </h1>
+        <button type="button" class="hero-button" data-modal-open>Order Service</button>
+        <div class="backdrop is-hidden" data-modal> 
+            <div class="modal"> 
+            <button type="button" class="modal-close-btn" data-modal-close>&times;</button> 
+            </div> 
+        </div> 
+    </section>
+        
 
     
 
